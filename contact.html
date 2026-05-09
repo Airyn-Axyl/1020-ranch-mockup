@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — 1020 Ranch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpg">
+</head>
+<body>
+
+<nav class="nav hero-transparent" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="images/logo.jpg" alt="1020 Ranch"></a>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link">Home</a></li>
+      <li><a href="weddings.html" class="nav__link">Weddings</a></li>
+      <li><a href="events.html" class="nav__link">Events</a></li>
+      <li><a href="accommodations.html" class="nav__link">Accommodations</a></li>
+      <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+      <li><a href="contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav__cta-btn">Book a Tour</a>
+    <button class="nav__hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav">
+  <button class="mobile-nav__close">×</button>
+  <a href="index.html" class="mobile-nav__link">Home</a>
+  <a href="weddings.html" class="mobile-nav__link">Weddings</a>
+  <a href="events.html" class="mobile-nav__link">Events</a>
+  <a href="accommodations.html" class="mobile-nav__link">Accommodations</a>
+  <a href="gallery.html" class="mobile-nav__link">Gallery</a>
+  <a href="contact.html" class="mobile-nav__link">Contact</a>
+  <a href="contact.html" class="btn btn-dark mt-4">Book a Tour</a>
+</div>
+
+<!-- ── Hero ── -->
+<section class="hero hero--short">
+  <img class="hero__bg" src="images/renderings/entrance.jpg" alt="1020 Ranch entrance" loading="eager">
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <span class="hero__eyebrow">Get in Touch</span>
+    <h1 class="hero__title">Let's Start<br>the Conversation</h1>
+    <p class="hero__sub">Tours take about 90 minutes and cover the ceremony space, reception area, all six tiny homes, and the bluff overlook. No pressure - just the land.</p>
+  </div>
+</section>
+
+<!-- ── Contact Cards (2x2) ── -->
+<section class="section">
+  <div class="container">
+    <div class="contact-cards">
+      <div class="contact-card">
+        <div class="contact-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3 class="contact-card__title">Address</h3>
+        <p class="contact-card__text">1020 Ranch<br>Burnet, Texas Hill Country</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h3 class="contact-card__title">Email</h3>
+        <p class="contact-card__text">hello@1020ranch.com</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <h3 class="contact-card__title">Phone</h3>
+        <p class="contact-card__text">(512) 000-0000</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="contact-card__title">Tour Hours</h3>
+        <p class="contact-card__text">By Appointment Only<br>Mon - Sat · 9am - 5pm CT</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Book a Tour Form ── -->
+<section class="section section--gray">
+  <div class="container" style="max-width:860px;">
+    <div class="section-header">
+      <span class="eyebrow">Schedule a Visit</span>
+      <h2 class="section-title">Book a Tour</h2>
+      <div class="divider"></div>
+      <p>Fill out the form below and we'll reach out within one business day to schedule your visit.</p>
+    </div>
+    <div style="background:var(--white);padding:48px;border:1px solid var(--warm-200);">
+      <form>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label" for="first-name">First Name</label>
+            <input class="form-input" type="text" id="first-name" placeholder="Sarah">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="last-name">Last Name</label>
+            <input class="form-input" type="text" id="last-name" placeholder="Johnson">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-input" type="email" id="email" placeholder="sarah@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-input" type="tel" id="phone" placeholder="(512) 000-0000">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="event-type">Event Type</label>
+            <select class="form-select" id="event-type">
+              <option value="">Select event type</option>
+              <option>Weekend Wedding Retreat</option>
+              <option>Intimate Ceremony</option>
+              <option>Reception Only</option>
+              <option>Corporate Retreat</option>
+              <option>Private Event / Celebration</option>
+              <option>Family Reunion</option>
+              <option>Photo / Video Shoot</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="event-date">Estimated Event Date</label>
+            <input class="form-input" type="date" id="event-date">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="guest-count">Estimated Guest Count</label>
+            <select class="form-select" id="guest-count">
+              <option value="">Select range</option>
+              <option>Under 25</option>
+              <option>25 - 50</option>
+              <option>50 - 100</option>
+              <option>100 - 150</option>
+              <option>150 - 200</option>
+              <option>200+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="hear">How Did You Hear About Us?</label>
+            <select class="form-select" id="hear">
+              <option value="">Select one</option>
+              <option>Google Search</option>
+              <option>Instagram</option>
+              <option>Friend or Family</option>
+              <option>Wedding Planner Referral</option>
+              <option>The Knot / WeddingWire</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group form-group--full">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" placeholder="Tell us about your event, your timeline, any questions you have..."></textarea>
+          </div>
+        </div>
+        <div style="margin-top:24px;">
+          <button type="submit" class="btn btn-dark" style="padding:16px 48px;width:100%;">Submit Inquiry</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── Map + Driving Directions ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Find Us</span>
+      <h2 class="section-title">Getting Here</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="map-grid">
+      <div>
+        <div class="map-placeholder" style="min-height:360px;">
+          <!-- Brooke Olsen integrates Google Map here -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>Map - Burnet, Texas Hill Country</p>
+        </div>
+      </div>
+      <div>
+        <div class="directions">
+          <h3 class="directions__title">Driving Directions</h3>
+          <p class="directions__text">1020 Ranch is located in the Texas Hill Country, just outside of Burnet. The drive is scenic and easy from all major Texas cities.</p>
+        </div>
+        <div class="directions" style="margin-top:28px;">
+          <h3 class="directions__title">From Austin</h3>
+          <p class="directions__text">~60 minutes northwest via TX-29 W through Liberty Hill and Burnet. A beautiful drive through rolling Hill Country.</p>
+        </div>
+        <div class="directions" style="margin-top:28px;">
+          <h3 class="directions__title">From San Antonio</h3>
+          <p class="directions__text">~90 minutes north via US-281 N through Johnson City and Marble Falls. Stop in Marble Falls for lunch on the way up.</p>
+        </div>
+        <div class="directions" style="margin-top:28px;">
+          <h3 class="directions__title">From Dallas / Fort Worth</h3>
+          <p class="directions__text">~3 hours south via I-35 S to TX-29 W. Worth the drive.</p>
+        </div>
+        <div class="directions" style="margin-top:28px;">
+          <h3 class="directions__title">From Houston</h3>
+          <p class="directions__text">~3.5 hours northwest via US-290 W through Austin. Consider staying overnight at the ranch.</p>
+        </div>
+        <a href="#" class="btn btn-dark" style="margin-top:28px;">Get Directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section section--gray">
+  <div class="container" style="max-width:800px;">
+    <div class="section-header">
+      <span class="eyebrow">Quick Answers</span>
+      <h2 class="section-title">Before You Visit</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-trigger">What should I expect during a tour? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Tours are 90 minutes and walk you through the full property - ceremony grounds, reception area, all six tiny homes, the bluff overlook, and lake. We'll talk through packages, answer your questions, and give you a feel for how your event could flow. There's no pressure and no commitment required.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Can I bring my partner / planner to the tour? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Absolutely. We encourage it. Bring your partner, your planner, your parents - whoever is part of the decision. The more eyes on the property, the better. We've hosted tours of up to 6 people comfortably.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">How quickly do you respond to inquiries? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">We respond to every inquiry within one business day, typically within a few hours. If you don't hear from us, please check your spam folder or call us directly.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">How far in advance should I inquire? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Peak season dates (spring and fall) book 12-18 months out. For the best selection, reach out as soon as you have a date in mind. We also occasionally have openings for shorter-notice bookings - it never hurts to ask.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Do you hold dates before a contract is signed? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">We can hold a date for a limited period (typically 7-14 days) while you finalize your decision. A signed contract and deposit are required to confirm your booking. Your tour guide will walk you through the full process.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA Strip ── -->
+<section class="cta-strip">
+  <div class="container">
+    <h2 class="section-title" style="color:var(--white);margin-bottom:14px;">Not Sure Yet? That's OK.</h2>
+    <p>Take a look at the ranch first. Browse the gallery, read about our packages, and reach out when you're ready.</p>
+    <div class="cta-strip__btns">
+      <a href="gallery.html" class="btn btn-outline-white">View Gallery</a>
+      <a href="weddings.html" class="btn btn-outline-white">Wedding Packages</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="footer__logo"><img src="images/logo.jpg" alt="1020 Ranch"></a>
+        <p class="footer__tagline">A private 20-acre estate in the Texas Hill Country. Home to weddings, curated events, and six on-site retreats.</p>
+      </div>
+      <div>
+        <span class="footer__col-title">Navigate</span>
+        <ul class="footer__links">
+          <li><a href="index.html" class="footer__link">Home</a></li>
+          <li><a href="weddings.html" class="footer__link">Weddings</a></li>
+          <li><a href="events.html" class="footer__link">Events</a></li>
+          <li><a href="accommodations.html" class="footer__link">Accommodations</a></li>
+          <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer__col-title">Contact</span>
+        <p class="footer__contact-line">Burnet, Texas Hill Country</p>
+        <p class="footer__contact-line">hello@1020ranch.com</p>
+        <p class="footer__contact-line">(512) 000-0000</p>
+      </div>
+      <div>
+        <span class="footer__col-title">Hours</span>
+        <p class="footer__contact-line">Tours by appointment only</p>
+        <p class="footer__contact-line">Mon - Sat · 9am - 5pm CT</p>
+        <a href="contact.html" class="btn btn-outline-white" style="margin-top:24px;display:inline-block;">Book a Tour</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2025 1020 Ranch. All rights reserved.</span>
+      <div class="footer__bottom-links">
+        <a href="https://docs.google.com/document/d/1CzPdLeP2QVLGTZmBXSlIkhM5HJ3bR7iO/edit" class="footer__bottom-link" target="_blank">Privacy Policy</a>
+        <a href="https://docs.google.com/document/d/14elfe7JaWCnhKUJQh2g7dPijl5Zy80LE/edit" class="footer__bottom-link" target="_blank">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

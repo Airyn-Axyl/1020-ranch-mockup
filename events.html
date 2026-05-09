@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — 1020 Ranch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpg">
+</head>
+<body>
+
+<nav class="nav hero-transparent" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="images/logo.jpg" alt="1020 Ranch"></a>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link">Home</a></li>
+      <li><a href="weddings.html" class="nav__link">Weddings</a></li>
+      <li><a href="events.html" class="nav__link">Events</a></li>
+      <li><a href="accommodations.html" class="nav__link">Accommodations</a></li>
+      <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+      <li><a href="contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav__cta-btn">Book a Tour</a>
+    <button class="nav__hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav">
+  <button class="mobile-nav__close">×</button>
+  <a href="index.html" class="mobile-nav__link">Home</a>
+  <a href="weddings.html" class="mobile-nav__link">Weddings</a>
+  <a href="events.html" class="mobile-nav__link">Events</a>
+  <a href="accommodations.html" class="mobile-nav__link">Accommodations</a>
+  <a href="gallery.html" class="mobile-nav__link">Gallery</a>
+  <a href="contact.html" class="mobile-nav__link">Contact</a>
+  <a href="contact.html" class="btn btn-dark mt-4">Book a Tour</a>
+</div>
+
+<!-- ── Hero ── -->
+<section class="hero">
+  <img class="hero__bg" src="images/renderings/reception-exterior.jpg" alt="Reception Hall at 1020 Ranch" loading="eager">
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <span class="hero__eyebrow">Gatherings Worth the Land</span>
+    <h1 class="hero__title">Events At<br>The Ranch</h1>
+    <p class="hero__sub">Corporate retreats, milestone birthdays, family reunions, creative workshops — 1020 Ranch is yours for any occasion worth the setting.</p>
+    <div class="hero__ctas">
+      <a href="contact.html" class="btn btn-outline-white">Inquire About Your Event</a>
+      <a href="#event-packages" class="btn btn-outline-white">View Packages</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Event Types (4 Tabs) ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">What We Host</span>
+      <h2 class="section-title">Every Occasion Deserves<br>This Setting</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="event-tabs">
+      <button class="event-tab active" data-event="weddings">Weddings</button>
+      <button class="event-tab" data-event="retreats">Retreats</button>
+      <button class="event-tab" data-event="corporate">Corporate Events</button>
+      <button class="event-tab" data-event="parties">Private Parties</button>
+    </div>
+
+    <div class="event-tab-panel active" data-event-panel="weddings">
+      <div class="event-tab-content">
+        <div class="event-tab-content__text">
+          <div class="icon-item__icon" style="margin-bottom:16px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="card-title" style="margin-bottom:14px;">Weddings</h3>
+          <p class="lead">From intimate 50-person ceremonies on the bluff to full weekend buyouts with 200 guests — 1020 Ranch is designed for the wedding you've always pictured. Fully private. Open vendor policy. Six on-site tiny homes for your closest people.</p>
+          <a href="weddings.html" class="btn btn-dark" style="margin-top:28px;">Explore Weddings</a>
+        </div>
+        <div class="event-tab-content__photo">
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80" alt="Wedding ceremony at 1020 Ranch" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="event-tab-panel" data-event-panel="retreats">
+      <div class="event-tab-content">
+        <div class="event-tab-content__text">
+          <div class="icon-item__icon" style="margin-bottom:16px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="card-title" style="margin-bottom:14px;">Retreats</h3>
+          <p class="lead">Family reunions, wellness retreats, creative getaways — gather the people who matter in a place that pulls you away from everything else. All six tiny homes, campfire under the stars, mornings by the lake.</p>
+          <a href="contact.html" class="btn btn-dark" style="margin-top:28px;">Plan a Retreat</a>
+        </div>
+        <div class="event-tab-content__photo">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" alt="Retreat at 1020 Ranch" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="event-tab-panel" data-event-panel="corporate">
+      <div class="event-tab-content">
+        <div class="event-tab-content__text">
+          <div class="icon-item__icon" style="margin-bottom:16px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="card-title" style="margin-bottom:14px;">Corporate Events</h3>
+          <p class="lead">Executive off-sites, team-building experiences, strategy sessions, or company celebrations — completely removed from the office. AV-ready spaces, on-site lodging, and catering coordination available.</p>
+          <a href="contact.html" class="btn btn-dark" style="margin-top:28px;">Plan a Corporate Event</a>
+        </div>
+        <div class="event-tab-content__photo">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80" alt="Corporate event at 1020 Ranch" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="event-tab-panel" data-event-panel="parties">
+      <div class="event-tab-content">
+        <div class="event-tab-content__text">
+          <div class="icon-item__icon" style="margin-bottom:16px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="card-title" style="margin-bottom:14px;">Private Parties</h3>
+          <p class="lead">Milestone birthdays, anniversaries, engagement parties, graduation celebrations — the occasions that deserve more than a restaurant. A full estate for a full celebration, with the Hill Country as your backdrop.</p>
+          <a href="contact.html" class="btn btn-dark" style="margin-top:28px;">Plan a Private Party</a>
+        </div>
+        <div class="event-tab-content__photo">
+          <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Private party at 1020 Ranch" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Event Spaces ── -->
+<section class="section section--gray">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">The Spaces</span>
+      <h2 class="section-title">Where Your Event Lives</h2>
+      <div class="divider"></div>
+      <p>The entire property is available for your exclusive use. Here are the primary gathering spaces.</p>
+    </div>
+    <div class="spaces-grid">
+      <div class="space-card">
+        <div class="space-card__img">
+          <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="Outdoor gathering space" loading="lazy">
+        </div>
+        <div class="space-card__body">
+          <h3 class="space-card__name">Outdoor Grounds</h3>
+          <p class="space-card__desc">The main gathering space — open to the Hill Country sky, set across the meadow with panoramic bluff and lake views. Ideal for ceremonies, dinners under the stars, or all-day celebrations.</p>
+          <ul class="checklist" style="margin-top:10px;">
+            <li>Up to 200 guests seated</li>
+            <li>Flexible layout (ceremony, banquet, cocktail)</li>
+            <li>String lighting throughout</li>
+            <li>Natural shade structures</li>
+            <li>Bluff overlook access</li>
+          </ul>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card__img">
+          <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=800&q=80" alt="Covered reception bar" loading="lazy">
+        </div>
+        <div class="space-card__body">
+          <h3 class="space-card__name">Covered Reception &amp; Bar</h3>
+          <p class="space-card__desc">A covered event structure with built-in bar, flexible seating, and direct flow from the outdoor grounds. Designed for receptions, cocktail hours, presentations, and keynote dinners.</p>
+          <ul class="checklist" style="margin-top:10px;">
+            <li>Covered structure with open sides</li>
+            <li>Built-in bar area</li>
+            <li>AV hookup available</li>
+            <li>Dance floor area</li>
+            <li>Climate-appropriate for all seasons</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="photo-row photo-row--2" style="margin-top:32px;">
+      <div><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=800&q=80" alt="Ranch aerial view" loading="lazy"></div>
+      <div><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80" alt="Golden hour" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Capacity & Layouts ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Capacity</span>
+      <h2 class="section-title">Flexible Layouts for<br>Every Occasion</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="capacity-grid">
+      <div class="capacity-card">
+        <div class="capacity-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+        </div>
+        <div class="capacity-card__type">Cocktail</div>
+        <div class="capacity-card__count">150 - 200</div>
+        <div class="capacity-card__label">Guests</div>
+      </div>
+      <div class="capacity-card">
+        <div class="capacity-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <div class="capacity-card__type">Banquet</div>
+        <div class="capacity-card__count">100 - 150</div>
+        <div class="capacity-card__label">Guests</div>
+      </div>
+      <div class="capacity-card">
+        <div class="capacity-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div class="capacity-card__type">Ceremony</div>
+        <div class="capacity-card__count">75 - 100</div>
+        <div class="capacity-card__label">Guests</div>
+      </div>
+      <div class="capacity-card">
+        <div class="capacity-card__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="capacity-card__type">Conference</div>
+        <div class="capacity-card__count">30 - 50</div>
+        <div class="capacity-card__label">Guests</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Event Packages ── -->
+<section class="section section--gray" id="event-packages">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Event Packages</span>
+      <h2 class="section-title">Find Your Package</h2>
+      <div class="divider"></div>
+      <p>Flexible pricing built around your event type, duration, and guest count. Every booking is exclusive use of the entire property.</p>
+    </div>
+    <div class="packages-grid">
+      <div class="package-card featured">
+        <div class="package-card__img">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80" alt="Corporate Retreat" loading="lazy">
+        </div>
+        <div class="package-card__body">
+          <span class="package-card__badge">Most Popular</span>
+          <h3 class="package-card__name">Corporate Retreat</h3>
+          <p class="package-card__desc">Multi-day team-building, off-site strategy, or company celebration. Full property access with lodging, AV, and catering coordination.</p>
+          <div class="package-card__price">Starting at $[TBD] <span>/ Weekend</span></div>
+          <div class="toggle-tabs">
+            <button class="toggle-tab" data-target="cr-inc">Included</button>
+            <button class="toggle-tab" data-target="cr-add">Add-Ons</button>
+          </div>
+          <div class="toggle-panel" data-panel="cr-inc">
+            <ul class="checklist">
+              <li>Full property access (Fri - Sun)</li>
+              <li>All 6 tiny homes for team lodging</li>
+              <li>AV-ready presentation space</li>
+              <li>Tables, chairs, basic linens</li>
+              <li>String lighting throughout</li>
+              <li>On-site property team</li>
+              <li>Wi-Fi throughout property</li>
+            </ul>
+          </div>
+          <div class="toggle-panel" data-panel="cr-add">
+            <ul class="checklist">
+              <li>Full catering &amp; bar service</li>
+              <li>AV equipment rental</li>
+              <li>Team-building activities</li>
+              <li>Event coordination</li>
+              <li>Bonfire &amp; s'mores setup</li>
+              <li>Extended hours</li>
+            </ul>
+          </div>
+          <a href="#request-quote" class="btn btn-dark" style="margin-top:22px;">Request Quote</a>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-card__img">
+          <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=600&q=80" alt="Family Celebration" loading="lazy">
+        </div>
+        <div class="package-card__body">
+          <h3 class="package-card__name">Family Celebration</h3>
+          <p class="package-card__desc">Milestone birthdays, anniversaries, reunions — the celebrations that deserve a full estate. Bring everyone together on 20 private acres.</p>
+          <div class="package-card__price">Starting at $[TBD] <span>/ Day or Weekend</span></div>
+          <div class="toggle-tabs">
+            <button class="toggle-tab" data-target="fc-inc">Included</button>
+            <button class="toggle-tab" data-target="fc-add">Add-Ons</button>
+          </div>
+          <div class="toggle-panel" data-panel="fc-inc">
+            <ul class="checklist">
+              <li>Exclusive property access</li>
+              <li>Event grounds &amp; bluff access</li>
+              <li>Tables, chairs &amp; linens</li>
+              <li>String lighting</li>
+              <li>On-site property host</li>
+              <li>Parking for all guests</li>
+            </ul>
+          </div>
+          <div class="toggle-panel" data-panel="fc-add">
+            <ul class="checklist">
+              <li>Tiny home overnight stays</li>
+              <li>Catering coordination</li>
+              <li>DJ or live music</li>
+              <li>Photography</li>
+              <li>Extended hours</li>
+            </ul>
+          </div>
+          <a href="#request-quote" class="btn btn-outline" style="margin-top:22px;">Request Quote</a>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-card__img">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Creative Wellness Retreat" loading="lazy">
+        </div>
+        <div class="package-card__body">
+          <h3 class="package-card__name">Creative &amp; Wellness Retreat</h3>
+          <p class="package-card__desc">Yoga retreats, creative workshops, writing getaways, photo/video shoots — for groups that need beauty, quiet, and space to think.</p>
+          <div class="package-card__price">Starting at $[TBD] <span>/ Day or Weekend</span></div>
+          <div class="toggle-tabs">
+            <button class="toggle-tab" data-target="cw-inc">Included</button>
+            <button class="toggle-tab" data-target="cw-add">Add-Ons</button>
+          </div>
+          <div class="toggle-panel" data-panel="cw-inc">
+            <ul class="checklist">
+              <li>Exclusive property access</li>
+              <li>Open meadow &amp; lake grounds</li>
+              <li>Bluff overlook access</li>
+              <li>On-site property host</li>
+              <li>Wi-Fi throughout</li>
+            </ul>
+          </div>
+          <div class="toggle-panel" data-panel="cw-add">
+            <ul class="checklist">
+              <li>All 6 tiny home stays</li>
+              <li>Catering &amp; meal prep</li>
+              <li>Campfire &amp; guided walks</li>
+              <li>Photography / content creation</li>
+              <li>Wellness facilitator referrals</li>
+            </ul>
+          </div>
+          <a href="#request-quote" class="btn btn-outline" style="margin-top:22px;">Request Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Add-Ons Grid ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Enhancements</span>
+      <h2 class="section-title">Available Add-Ons</h2>
+      <div class="divider"></div>
+      <p>Build the experience your event deserves. All add-ons are coordinated through our team.</p>
+    </div>
+    <div class="addons-grid">
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <div class="addon-item__name">Catering</div>
+        <p class="addon-item__text">Full-service catering, cocktail bars, or casual BBQ. Open vendor policy with referrals available.</p>
+      </div>
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div class="addon-item__name">Entertainment</div>
+        <p class="addon-item__text">DJ, live bands, acoustic sets, or curated playlists. We can connect you with performers who know the property.</p>
+      </div>
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        </div>
+        <div class="addon-item__name">Photography</div>
+        <p class="addon-item__text">Event and portrait photography, drone aerials, or videography. Referrals to photographers who know our light.</p>
+      </div>
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="addon-item__name">Floral &amp; Decor</div>
+        <p class="addon-item__text">Custom florals, table settings, arch installations, or rustic-chic design. Bring your own or use our referral network.</p>
+      </div>
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+        </div>
+        <div class="addon-item__name">Activities</div>
+        <p class="addon-item__text">Guided property walks, campfire evenings, sunrise yoga, team-building challenges, or lake activities.</p>
+      </div>
+      <div class="addon-item">
+        <div class="addon-item__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="addon-item__name">AV &amp; Production</div>
+        <p class="addon-item__text">Projectors, screens, microphones, speakers, and lighting — everything you need for presentations or performances.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── A Setting That Inspires ── -->
+<section class="section section--gray">
+  <div class="container">
+    <div class="setting-grid">
+      <div>
+        <span class="eyebrow">The Land</span>
+        <h2 class="section-title" style="margin-bottom:20px;">A Setting That<br>Inspires</h2>
+        <div class="divider divider--left"></div>
+        <p class="lead">Twenty acres of Hill Country terrain — bluffs, meadows, a private spring-fed lake, and skies that turn colors you'll want to photograph every evening.</p>
+        <ul class="feature-list">
+          <li>Panoramic Hill Country views across 20+ private acres</li>
+          <li>Private spring-fed lake with natural bluff overlooks</li>
+          <li>Covered outdoor ceremony + open-air reception spaces</li>
+          <li>Six on-site tiny homes — no guest transportation needed</li>
+        </ul>
+        <a href="gallery.html" class="btn btn-dark">View the Gallery</a>
+      </div>
+      <div class="setting-photo">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80" alt="Hill Country panoramic view from 1020 Ranch" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Testimonials ── -->
+<section class="section testimonial-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">What People Say</span>
+      <h2 class="section-title">From Our Guests</h2>
+    </div>
+    <div class="testimonial-carousel">
+      <div class="testimonial-track">
+        <div class="testimonial-slide">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote class="testimonial__quote">"Our team flew in from four cities. By Saturday evening, everyone agreed it was the best offsite the company had ever done."</blockquote>
+          <div class="testimonial__attr">Technology Company — March 2024</div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote class="testimonial__quote">"We rented the whole ranch for Dad's 70th. Three generations, all on-site, all weekend. Best birthday party any of us have ever been to."</blockquote>
+          <div class="testimonial__attr">The Harrison Family — April 2024</div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote class="testimonial__quote">"The property sold itself. We spent the whole time focused on our work instead of worrying about logistics. That never happens at off-sites."</blockquote>
+          <div class="testimonial__attr">Creative Agency — February 2024</div>
+        </div>
+      </div>
+      <div class="testimonial__controls">
+        <button class="testimonial__btn testimonial__btn--prev">&#8592;</button>
+        <div class="testimonial__dots">
+          <div class="testimonial__dot active"></div>
+          <div class="testimonial__dot"></div>
+          <div class="testimonial__dot"></div>
+        </div>
+        <button class="testimonial__btn testimonial__btn--next">&#8594;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <div class="section-header">
+      <span class="eyebrow">Questions</span>
+      <h2 class="section-title">Frequently Asked</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-trigger">What types of events can you host? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">We host corporate retreats, team off-sites, milestone birthdays, family reunions, anniversary celebrations, brand activations, creative retreats, wellness getaways, photo/video shoots, and more. If your event benefits from privacy, beauty, and space — the ranch is built for it.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">How many guests can the property accommodate? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Event capacity ranges from intimate groups of 20 to full celebrations of 200 guests. Cocktail-style events can accommodate up to 200. Seated banquets work best at 100–150. Conference setups are ideal for 30–50. Our team can help you plan the right layout.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Can guests stay overnight? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Yes. The ranch has six on-site tiny homes that sleep 2–4 guests each (up to 20+ guests on-property). They are included in weekend buyout packages and available as add-ons for single-day events. Nearby Burnet has additional lodging options for overflow.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Is AV equipment available for presentations? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">Yes. We offer AV hookups in the covered event space and can coordinate projector, screen, microphone, and speaker rentals as an add-on. Wi-Fi is available throughout the property.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">Do you provide catering? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">We operate an open vendor policy — bring your preferred caterer or ask us for referrals to vendors who have worked on-property. We coordinate logistics and setup timing with your catering team.</div></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger">How far in advance should we book? <div class="accordion-icon"></div></button>
+        <div class="accordion-panel"><div class="accordion-panel__inner">For weekend buyouts, 6–12 months is recommended. Single-day events can sometimes be booked with shorter notice depending on availability. Reach out anytime — we'll let you know what's open.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Request a Quote Form ── -->
+<section class="section section--gray" id="request-quote">
+  <div class="container" style="max-width:860px;">
+    <div class="section-header">
+      <span class="eyebrow">Get Started</span>
+      <h2 class="section-title">Request a Quote</h2>
+      <div class="divider"></div>
+      <p>Tell us about your event and we'll send a custom quote within one business day.</p>
+    </div>
+    <form>
+      <div class="form-grid">
+        <div class="form-group">
+          <label class="form-label" for="first-name">First Name</label>
+          <input class="form-input" type="text" id="first-name" placeholder="Sarah">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="last-name">Last Name</label>
+          <input class="form-input" type="text" id="last-name" placeholder="Johnson">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address</label>
+          <input class="form-input" type="email" id="email" placeholder="sarah@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">Phone Number</label>
+          <input class="form-input" type="tel" id="phone" placeholder="(512) 000-0000">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="event-type">Event Type</label>
+          <select class="form-select" id="event-type">
+            <option value="">Select event type</option>
+            <option>Corporate Retreat</option>
+            <option>Family Celebration / Reunion</option>
+            <option>Milestone Birthday</option>
+            <option>Anniversary Celebration</option>
+            <option>Creative / Wellness Retreat</option>
+            <option>Brand / Photo Shoot</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="event-date">Estimated Event Date</label>
+          <input class="form-input" type="date" id="event-date">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="guest-count">Estimated Guest Count</label>
+          <select class="form-select" id="guest-count">
+            <option value="">Select range</option>
+            <option>Under 25</option>
+            <option>25 - 50</option>
+            <option>50 - 100</option>
+            <option>100 - 150</option>
+            <option>150 - 200</option>
+            <option>200+</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="duration">Event Duration</label>
+          <select class="form-select" id="duration">
+            <option value="">Select duration</option>
+            <option>Half Day (4 hours)</option>
+            <option>Full Day (8 hours)</option>
+            <option>Full Weekend (Fri - Sun)</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-group form-group--full">
+          <label class="form-label" for="message">Tell Us About Your Event</label>
+          <textarea class="form-textarea" id="message" placeholder="What are you celebrating? Any special requirements, timeline, or questions..."></textarea>
+        </div>
+      </div>
+      <div style="margin-top:24px;">
+        <button type="submit" class="btn btn-dark" style="padding:16px 48px;">Submit Quote Request</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="footer__logo"><img src="images/logo.jpg" alt="1020 Ranch"></a>
+        <p class="footer__tagline">A private 20-acre estate in the Texas Hill Country. Home to weddings, curated events, and six on-site retreats.</p>
+      </div>
+      <div>
+        <span class="footer__col-title">Navigate</span>
+        <ul class="footer__links">
+          <li><a href="index.html" class="footer__link">Home</a></li>
+          <li><a href="weddings.html" class="footer__link">Weddings</a></li>
+          <li><a href="events.html" class="footer__link">Events</a></li>
+          <li><a href="accommodations.html" class="footer__link">Accommodations</a></li>
+          <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer__col-title">Contact</span>
+        <p class="footer__contact-line">Burnet, Texas Hill Country</p>
+        <p class="footer__contact-line">hello@1020ranch.com</p>
+        <p class="footer__contact-line">(512) 000-0000</p>
+      </div>
+      <div>
+        <span class="footer__col-title">Hours</span>
+        <p class="footer__contact-line">Tours by appointment only</p>
+        <p class="footer__contact-line">Mon - Sat · 9am - 5pm CT</p>
+        <a href="contact.html" class="btn btn-outline-white" style="margin-top:24px;display:inline-block;">Book a Tour</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2025 1020 Ranch. All rights reserved.</span>
+      <div class="footer__bottom-links">
+        <a href="https://docs.google.com/document/d/1CzPdLeP2QVLGTZmBXSlIkhM5HJ3bR7iO/edit" class="footer__bottom-link" target="_blank">Privacy Policy</a>
+        <a href="https://docs.google.com/document/d/14elfe7JaWCnhKUJQh2g7dPijl5Zy80LE/edit" class="footer__bottom-link" target="_blank">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
